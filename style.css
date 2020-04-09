@@ -51,11 +51,6 @@ button:hover {
 	border-radius: 200px;
 	transform:scale(1.1,1.1);
 }
-.ul1 {
-	text-align: left;
-	list-style: none;
-	
-}
 .content-wrapper {
 	display: flex;
   	justify-content: center;
@@ -63,4 +58,6 @@ button:hover {
 .content {
 	display: flex;
   	flex-direction: column;
+	text-align: left;
+	list-style: none;
 }
