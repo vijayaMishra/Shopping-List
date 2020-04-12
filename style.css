@@ -2,9 +2,9 @@
 	text-align: center;
 }
 
-body {
-	background-image: url(bgima.jpg);
-	background-size: cover;
+body {    
+    background: url('bgima.jpg') no-repeat center fixed;     
+    background-size: cover;
 }
 
 .done {
