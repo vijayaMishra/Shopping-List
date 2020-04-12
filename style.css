@@ -21,8 +21,12 @@ h1 {
 }
 
 @media only screen and (max-width: 600px) {
-    h1, p {
-        font-size: 3vw;
+    h1 {
+        font-size: 7vw;
+        padding: 0;
+    }
+    p {
+        font-size: 4vw;
         padding: 0;
     }
 }
