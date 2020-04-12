@@ -20,6 +20,13 @@ h1 {
 	font-family: 'Nanum Gothic Coding', monospace;
 }
 
+@media only screen and (max-width: 600px) {
+    h1, p {
+        font-size: 3vw;
+        padding: 0;
+    }
+}
+
 p {
 	font-family: 'Sacramento', cursive;
 	font-size: 200%;
@@ -52,12 +59,10 @@ button:hover {
 	transform:scale(1.1,1.1);
 }
 .content-wrapper {
-	display: flex;
-  	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-.content {
-	display: flex;
-  	flex-direction: column;
-	text-align: left;
-	list-style: none;
+.content-wrapper .content {
+  display: flex;
+  flex-direction: column;
 }
